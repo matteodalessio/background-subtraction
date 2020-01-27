@@ -10,10 +10,10 @@ The basic methods have several limitations:
 - The thresholds and parameters are difficult to to choose.
 
 The methods applied in this simple example are:
-- **Previous frame**: the background estimated at step 'n' is the image analyzed in step 'n-1' <br>
+- **Previous frame**: the background estimated at step 'n' is the image analyzed in step 'n-1'; <br>
 ![equation](http://latex.codecogs.com/gif.latex?B%5Ctextsubscript%7Bn%7D%20%3DB%5Ctextsubscript%7Bn%7D%20-1)
 - **Moving average**: the background is estimated as the average of the last 'k' frames ('k' determines how much
-quickly the background adapts to changes) <br>
+quickly the background adapts to changes); <br>
 ![equation](http://latex.codecogs.com/gif.latex?B%5Ctextsubscript%7Bn%7D%20%3D%20%5Cfrac%7B1%7D%7Bk%7D%20%5Csum_%7Bi%3Dn-k-2%7D%5E%7Bn-1%7D%20I%5Ctextsubscript%7Bi%7D)
 - **Exponential moving average**: the alpha parameter determines the speed of background update. <br>
 	![equation](http://latex.codecogs.com/gif.latex?B%5Ctextsubscript%7Bn&plus;1%7D%20%3D%20%5Calpha%20B%5Ctextsubscript%7Bn%7D%20&plus;%20%281-%5Calpha%29I%5Ctextsubscript%7Bn%7D)
