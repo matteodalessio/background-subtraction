@@ -1,0 +1,7 @@
+/home/matteo/Desktop/New Folder/build/CMakeFiles/install/strip.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/edit_cache.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/list_install_components.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/simple.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/install/local.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/rebuild_cache.dir
+/home/matteo/Desktop/New Folder/build/CMakeFiles/install.dir
