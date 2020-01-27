@@ -25,8 +25,8 @@ quickly the background adapts to changes) <br>
 	
  ## Results 
  **Previous frame**:\
- ![](result/prevfrem.gif) <br>
+ ![](results/prevfrem.gif) <br>
  **Moving average**:\
- ![](result/mov.gif)<br>
+ ![](results/mov.gif)<br>
  **Exponential moving average**:\
- ![](result/exp.gif)
+ ![](results/exp.gif)
